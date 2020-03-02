@@ -52,6 +52,7 @@ The aim of this project is to code a **C library** replicating functions used du
 	ft_strjoin
 	
 **Authors**
+
 Ana Cortés Hernández
 
 **MIT License**
