@@ -11,7 +11,7 @@ The aim of this project is to code my own **C standard library** replicating myt
 
   
 
-## Libft.h functions
+## stdlib.h functions
 
 	ft_putchar
 	
