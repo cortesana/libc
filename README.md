@@ -1,11 +1,11 @@
-# Libft.h
+# stdlib.h
 
->  **A handmade C library.** :wrench::pineapple:
+>  **A homemade C library.** :wrench::pineapple:
 
 
 **Work in Progress.**
 
-The aim of this project is to code a **C library** replicating functions used during the **26-day-long 42Madrid C-Piscine** for now. It will be expanded and revised as I learn more.
+The aim of this project is to code my own **C standard library** replicating mythical functions. It will be expanded and revised as I learn more.
 
 **To do:** Inside of each function you will find a brief explanation of its functionality.
 
