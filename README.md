@@ -19,13 +19,7 @@ The aim of this project is to code my own **C standard library** replicating myt
 	
 	ft_putstr
 	
-	ft_putstr_non_printable
-	
 	ft_strlen
-	
-	ft_strcapitalize
-	
-	ft_strlowcase
 	
 	ft_strcpy
 	
