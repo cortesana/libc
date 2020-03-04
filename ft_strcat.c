@@ -1,4 +1,4 @@
-#include <stdio.h>
+// copies and concatenates strings. Appends src to dest and adds a null-terminating character.
 
 char	*ft_strcat(char *dest, char *src)
 {

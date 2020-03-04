@@ -1,3 +1,5 @@
+// displays a number with write().
+
 #include <unistd.h>
 
 void	ft_putnbr(int nb)

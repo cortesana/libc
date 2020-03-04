@@ -1,5 +1,7 @@
-#include <stdio.h>
+// parses a string and returns an integer.
+
 #include <unistd.h>
+
 int	ft_negativesign(int sign, int number)
 {
 	if(sign % 2 != 0)

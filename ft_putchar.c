@@ -1,3 +1,5 @@
+// displays char c (converted to an 'unsigned char') with write().
+
 #include <unistd.h>
 
 void	ft_putchar(char c)

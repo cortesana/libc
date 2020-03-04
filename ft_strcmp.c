@@ -1,4 +1,4 @@
-#include <stdio.h>
+// string comparison of s1 and s2. If 0 is returned, s1 and s2 are the same.
 
 int	ft_strcmp(char *s1, char *s2)
 {

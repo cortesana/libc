@@ -1,4 +1,4 @@
-#include <stdio.h>
+// size-bounded string copying and concatenation.
 
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {

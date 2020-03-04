@@ -1,5 +1,6 @@
+// concatenates an array. NEEDS REVISION.
+
 #include <stdlib.h>
-#include <unistd.h>
 
 char	*ft_strjoin(int size, char **strs, char *sep)
 {
@@ -22,7 +23,7 @@ char	*ft_strjoin(int size, char **strs, char *sep)
 	while(i <= size)
 	{
 		j = 0;
-		while(while[i][j])
+		while(strs[i][j])
 		{
 			j++;
 			x++;

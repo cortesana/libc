@@ -1,4 +1,5 @@
-#include <stdio.h>
+// locate a substring in a string.
+
 char	*ft_strstr(char *str, char *to_find)
 {
 	int i;

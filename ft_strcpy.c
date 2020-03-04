@@ -1,4 +1,5 @@
-#include <stdio.h>
+// copies the string src to dst including the null-terminating character.
+
 #include <unistd.h>
 
 char	*ft_strcpy(char *dest, char *src)

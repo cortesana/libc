@@ -1,5 +1,6 @@
+// size-bounded string copying and concatenation.
+
 #include <unistd.h>
-#include <stdio.h>
 
 unsigned int	ft_lensrc(char *src)
 {

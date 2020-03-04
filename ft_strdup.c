@@ -1,6 +1,6 @@
+// allocates sufficient memory for a copy of the string s1, does the copy, and returns a pointer to it.
+
 #include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
 
 char	*ft_strdup(char *src)
 {
