@@ -6,9 +6,6 @@
 **Work in Progress.**
 
 The aim of this project is to code my own **C standard library** replicating mythical functions. It will be expanded and revised as I learn more.
-
-**To do:** Inside of each function you will find a brief explanation of its functionality.
-
   
 
 ## stdlib.h functions
