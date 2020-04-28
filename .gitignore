@@ -1,54 +1,52 @@
-# Created by https://www.gitignore.io/api/sass,node,bower,macos
+# Prerequisites
+*.d
 
-# Bower
-bower_components
-.bower-cache
-.bower-registry
-.bower-tmp
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-# macOS
-*.DS_Store
-.AppleDouble
-.LSOverride
+# Linker output
+*.ilk
+*.map
+*.exp
 
-# Thumbnails
-._*
+# Precompiled Headers
+*.gch
+*.pch
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
 
-# Node logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
 
-# Dependency directories
-node_modules/
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
 
-# Sass
-.sass-cache/
-*.css.map
-
-# JS Sourcemaps
-*.js.map
-
-# Public folder
-public
-
-# vscode
-.vscode
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
