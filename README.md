@@ -44,6 +44,6 @@ The aim of this project is to code my own **C standard library** replicating myt
 	
 **Authors**
 
-Ana Cortés Hernández
+[cortesana](https://twitter.com/cortesana_dev)
 
 **MIT License**
