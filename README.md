@@ -20,6 +20,10 @@ The aim of this project is to code my own **C standard library** replicating myt
 |ft_isalpha|Alphabetic character test|
 |ft_isdigit|Numeric character test|
 |ft_isprint|Printable character test|
+|ft_islower|Lower-case character test|
+|ft_isupper|Upper-case character test|
+|ft_tolower|Upper-case to lower-case character conversion|
+|ft_toupper|Lower-case to upper-case character conversion|
 
 ### String-Handling functions
 |                   |Functionality|
