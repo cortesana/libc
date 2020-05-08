@@ -1,7 +1,3 @@
-// parses a string and returns an integer.
-
-#include <unistd.h>
-
 int	ft_negativesign(int sign, int number)
 {
 	if(sign % 2 != 0)
@@ -32,9 +28,4 @@ int	ft_atoi(char *str)
 	}
 	ft_negativesign(sign, number);
 	return(number);
-}
-int main()
-{
-	char str[] = "   +-1assa223akdj";
-	printf("%d", ft_atoi(str));
 }
