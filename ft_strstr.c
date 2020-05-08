@@ -1,5 +1,3 @@
-// locate a substring in a string.
-
 char	*ft_strstr(char *str, char *to_find)
 {
 	int i;
@@ -30,12 +28,4 @@ char	*ft_strstr(char *str, char *to_find)
 		i++;
 	}	
 	return(NULL);
-}
-
-int main()
-{
-	char str[] = "hneedleay";
-	char to_find[] = "iii";
-	printf("%s", ft_strstr(str, to_find));
-	return(0);
 }
