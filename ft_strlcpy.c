@@ -1,7 +1,3 @@
-// size-bounded string copying and concatenation.
-
-#include <unistd.h>
-
 unsigned int	ft_lensrc(char *src)
 {
 	unsigned int sizesrc;
@@ -24,12 +20,4 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 	if(size != 0)
 		dest[size - 1] = '\0';
 	return(ft_lensrc(src));
-}
-int main()
-{
-	char src[] = "holamulgato";
-	char dest[] = "mulmono";
-	unsigned int size;
-	size = 7;
-	printf("%d", ft_strlcpy(dest, src, size));
 }
