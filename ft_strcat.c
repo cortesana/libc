@@ -1,5 +1,3 @@
-// copies and concatenates strings. Appends src to dest and adds a null-terminating character.
-
 char	*ft_strcat(char *dest, char *src)
 {
 	int i;
@@ -16,12 +14,4 @@ char	*ft_strcat(char *dest, char *src)
 	}
 	dest[i + j] = '\0';
 	return(dest);
-}
-
-int main()
-{
-	char dest[] = "raf";
-	char src[] = "gaio";
-
-	printf("%s", ft_strcat(dest, src));
 }
