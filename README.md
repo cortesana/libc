@@ -19,6 +19,7 @@ The aim of this project is to code my own **C standard library** replicating myt
 |-------------------|--------------------|
 |ft_isalpha|Alphabetic character test|
 |ft_isdigit|Numeric character test|
+|ft_isprint|Printable character test|
 
 ### String-Handling functions
 |                   |Functionality|
