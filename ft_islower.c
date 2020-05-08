@@ -1,4 +1,4 @@
-char	ft_islower(char c)
+int	ft_islower(char c)
 {
 	if(c >= 'a' && c <= 'z')
 		return(1);

@@ -10,12 +10,12 @@ The aim of this project is to code my own **C standard library** replicating myt
 ## libc functions
 ### Standard Input-Output functions
 
-|                   |Functionality|
+|                   |Brief Description|
 |-------------------|--------------------|
 |ft_putchar| Write char c (converted to an 'unsigned char')|
 
 ### Character-Handling functions
-|                   |Functionality|
+|                   |Brief Description|
 |-------------------|--------------------|
 |ft_isalpha|Alphabetic character test|
 |ft_isdigit|Numeric character test|
@@ -26,7 +26,7 @@ The aim of this project is to code my own **C standard library** replicating myt
 |ft_toupper|Lower-case to upper-case character conversion|
 
 ### String-Handling functions
-|                   |Functionality|
+|                   |Brief Description|
 |-------------------|--------------------|
 |ft_strcat|String concatenation.|
 |ft_strncat|Size-bound string concatenation|
@@ -41,13 +41,13 @@ The aim of this project is to code my own **C standard library** replicating myt
 |ft_strdup|Save a copy of a string|
 
 ### Standard functions
-|                   |Functionality|
+|                   |Brief Description|
 |-------------------|--------------------|
 |ft_atoi|String to integer conversion|
 |ft_div|Return quotient and remainder from division|
 
 ### Math functions
-|                   |Functionality|
+|                   |Brief Description|
 |-------------------|--------------------|
 |ft_sqrt|Return square root|
 
