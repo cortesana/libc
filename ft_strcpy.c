@@ -1,7 +1,3 @@
-// copies the string src to dst including the null-terminating character.
-
-#include <unistd.h>
-
 char	*ft_strcpy(char *dest, char *src)
 {
 	int i;
@@ -16,10 +12,3 @@ char	*ft_strcpy(char *dest, char *src)
 	dest[i] = '\0';
 	return(dest);
 }
-int main()
-{
-	char dest[] = "gu";
-	char src[] = "hola";
-
-	ft_strcpy(dest, src);
-}	
