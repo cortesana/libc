@@ -1,5 +1,3 @@
-// size-bounded string copying and concatenation.
-
 unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 {
 	unsigned int i;
@@ -16,14 +14,4 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	}
 	dest[i + j] = '\0';
 	return(i + j);
-}
-
-int main()
-{
-	char dest[]= "hola";
-	char src[] = "adios";
-	unsigned int size;
-	size = 8;
-	printf("%u", ft_strlcat(dest, src, size));
-	return(0);
 }
