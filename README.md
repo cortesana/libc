@@ -1,6 +1,6 @@
 # libc
 
->  **A homemade C library.** :wrench::pineapple:
+>  **A homemade libc.** :wrench::pineapple:
 
 
 **Work in Progress.**
