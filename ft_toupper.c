@@ -1,6 +1,6 @@
 char ft_toupper(char c)
 {
-	if(c >= 'A' && c <= 'Z')
+	if(c >= 'a' && c <= 'z')
 		c = c - 32;
 	return(c);
 }
