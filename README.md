@@ -12,7 +12,7 @@ The aim of this project is to code my own **C standard library** replicating myt
 
 |                   |Functionality|
 |-------------------|--------------------|
-|ft_putchar| Displays char c (converted to an 'unsigned char') with write()|
+|ft_putchar| Write char c (converted to an 'unsigned char')|
 
 ### String-Handling functions
 |                   |Functionality|
