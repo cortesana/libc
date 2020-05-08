@@ -100,7 +100,7 @@ int	ft_atoi(char *str);
 int	main()
 {
 	char str[] = "+-++1skaj334skdj";
-	ft_strcat(str); // Return -1334
+	ft_atoi(str); // Return -1334
 }
 ```
 
