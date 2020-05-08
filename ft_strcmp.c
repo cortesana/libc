@@ -12,6 +12,5 @@ int	ft_strcmp(char *s1, char *s2)
 		}
 		i++;
 	}
-	printf("%d", 0);
 	return(0);
 }
