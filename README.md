@@ -7,9 +7,6 @@
 
 The aim of this project is to code my own **C standard library** replicating mythical functions. It will be expanded and revised as I learn more.
 
-A brief explanation of their functionality can be found inside each function.
-  
-
 ## libc functions
 ### Standard Input-Output functions
 
