@@ -13,12 +13,12 @@ A brief explanation of their functionality can be found inside each function.
 ## libc functions
 ### Standard Input-Output functions
 
-|                                           |Functionality|
+|                   |Functionality|
 |-------------------|--------------------|
 |ft_putchar| Displays char c (converted to an 'unsigned char') with write()|
 
 ### String-Handling functions
-|                                           |Functionality|
+|                   |Functionality|
 |-------------------|--------------------|
 |ft_strcat|String concatenation.|
 |ft_strncat|Size-bound string concatenation|
@@ -33,13 +33,13 @@ A brief explanation of their functionality can be found inside each function.
 |ft_strdup|Save a copy of a string|
 
 ### Standard functions
-|                                           |Functionality|
+|                   |Functionality|
 |-------------------|--------------------|
 |ft_atoi|String to integer conversion|
 |ft_div|Return quotient and remainder from division|
 
 ### Math functions
-|                                           |Functionality|
+|                   |Functionality|
 |-------------------|--------------------|
 |ft_sqrt|Return square root|
 
