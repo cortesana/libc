@@ -55,7 +55,7 @@ The aim of this project is to code my own **C standard library** replicating myt
 
 ## How To Contribute
 
-Contributions are what make the open source community such an amazing place to be, learn and grow. Any contributions are **greatly appreciated**.
+Contributions are what make the open source community an amazing place to be, learn and grow. Any contributions to **libc** are **greatly appreciated**.
 1. Fork the project.
 2. Create a Branch:
     ```
