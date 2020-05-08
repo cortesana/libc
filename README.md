@@ -14,6 +14,11 @@ The aim of this project is to code my own **C standard library** replicating myt
 |-------------------|--------------------|
 |ft_putchar| Write char c (converted to an 'unsigned char')|
 
+### Character-Handling functions
+|                   |Functionality|
+|-------------------|--------------------|
+|ft_isalpha|Alphabetic character test|
+
 ### String-Handling functions
 |                   |Functionality|
 |-------------------|--------------------|
