@@ -10,47 +10,121 @@ The aim of this project is to code my own **C standard library** replicating myt
 ## libc functions
 ### Standard Input-Output functions
 
-|                   |Brief Description|
-|-------------------|--------------------|
-|ft_putchar| Write char c (converted to an 'unsigned char')|
+||Description|Argument type|Return type|
+|-----------|-----------|-----------|-----------|
+|ft_putchar|Write char c (converted to an 'unsigned char')|char|void|
+
+EXAMPLE:
+```c
+void	ft_putchar(char c);
+
+int	main()
+{
+	char c;
+	
+	c = 'c';
+	ft_putchar(c);
+}
+// OUTPUT => c
+```
 
 ### Character-Handling functions
-|                   |Brief Description|
-|-------------------|--------------------|
-|ft_isalpha|Alphabetic character test|
-|ft_isdigit|Numeric character test|
-|ft_isprint|Printable character test|
-|ft_islower|Lower-case character test|
-|ft_isupper|Upper-case character test|
-|ft_tolower|Upper-case to lower-case character conversion|
-|ft_toupper|Lower-case to upper-case character conversion|
+
+||Description|Argument type|Return type|
+|-----------|-----------|-----------|-----------|
+|ft_isalpha|Alphabetic character test|char|int|
+|ft_isdigit|Numeric character test|char|int|
+|ft_isprint|Printable character test|char|int|
+|ft_islower|Lower-case character test|char|int|
+|ft_isupper|Upper-case character test|char|int|
+|ft_tolower|Upper-case to lower-case character conversion|char|char|
+|ft_toupper|Lower-case to upper-case character conversion|char|char|
+ 
+ EXAMPLE:
+```c
+int	ft_isalpha(char c);
+
+int	main()
+{
+	char c;
+	
+	c = 'c';
+	ft_isalpha(c); // Return 1
+	c = '2';
+	ft_isalpha(c); // Return 0
+}
+```
+
 
 ### String-Handling functions
-|                   |Brief Description|
-|-------------------|--------------------|
-|ft_strcat|String concatenation.|
-|ft_strncat|Size-bound string concatenation|
-|ft_strlcat|Size-bound string concatenation.|
-|ft_strcmp|String comparison|
-|ft_strncmp|Size-bound string comparison|
-|ft_strcpy|String copying|
-|ft_strncpy|Size-bound string copying|
-|ft_strlcpy|Size-bound string copying|
-|ft_strlen|Return string length|
-|ft_strstr|Locate a substring in a string|
-|ft_strdup|Save a copy of a string|
+
+||Description|Argument type|Return type|
+|-----------|-----------|-----------|-----------|
+|ft_strcat|String concatenation.|*char|*char|
+|ft_strncat|Size-bound string concatenation|*char, int|*char|
+|ft_strlcat|Size-bound string concatenation.|*char, int|unsigned int|
+|ft_strcmp|String comparison|*char|int|
+|ft_strncmp|Size-bound string comparison|*char, int|int|
+|ft_strcpy|String copying|*char|*char|
+|ft_strncpy|Size-bound string copying|*char, int|*char|
+|ft_strlcpy|Size-bound string copying|*char, int|*char|
+|ft_strlen|Return string length|*char|int|
+|ft_strstr|Locate a substring in a string|*char|*char|
+|ft_strdup|Save a copy of a string|*char|*char|
+
+EXAMPLE:
+```c
+char	*ft_strcat(char *dest, char *src);
+
+int	main()
+{
+	char dest[] = "Hola";
+	char src[] = ", mundo";
+	
+	ft_strcat(dest, src); // Return Hola, mundo
+}
+```
+  
 
 ### Standard functions
-|                   |Brief Description|
-|-------------------|--------------------|
-|ft_atoi|String to integer conversion|
-|ft_div|Return quotient and remainder from division|
+
+||Description|Argument type|Return type|
+|-----------|-----------|-----------|-----------|
+|ft_atoi|String to integer conversion|string|int|
+|ft_div|Return quotient and remainder from division|int|void
+
+
+EXAMPLE:
+```c
+int	ft_atoi(char *str);
+
+int	main()
+{
+	char str[] = "+-++1skaj334skdj";
+	
+	ft_strcat(str); // Return -1334
+}
+```
 
 ### Math functions
-|                   |Brief Description|
-|-------------------|--------------------|
-|ft_sqrt|Return square root|
 
+||Description|Argument type|Return type|
+|-----------|-----------|-----------|-----------|
+|ft_sqrt|Return square root|int|int|
+
+
+EXAMPLE:
+```c
+int	ft_sqrt(int nb);
+
+int	main()
+{
+	int nb;
+	
+	nb = 4;
+	ft_sqrt(nb); // Return 2
+}
+```
 ## Installation Guide
 
 1. Download or clone the repository.
