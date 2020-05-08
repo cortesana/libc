@@ -1,6 +1,6 @@
 char	ft_islower(char c)
 {
-	if(str[i] >= 'a' && str[i] <= 'z')
+	if(c >= 'a' && c <= 'z')
 		return(1);
 	return(0);
 }
