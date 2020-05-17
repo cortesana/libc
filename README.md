@@ -125,7 +125,7 @@ int	main()
 ```
 ## Installation Guide
 
-1. Download or clone the repository.
+1. Clone or download the repository.
 2. Create a main.c file.
 3. Compile main.c and ft_example.c together:
     ```
