@@ -2,12 +2,28 @@
 
 >  **A homemade libc.** :wrench::pineapple:
 
-
 **Work in Progress.**
 
 The aim of this project is to code my own **C standard library** replicating mythical functions. It will be expanded and revised as I learn more.
 
+## Table of contents
+- [libc functions](#libc)
+	- [Standard Input-Output functions](#stdio)
+	- [Character-Handling functions](#ctype)
+	- [String-Handling functions](#string)
+	- [Standard functions](#stdlib)
+	- [Math functions](#math)
+- [Installation Guide](#installation)
+- [How To Contribute](#contributions)
+- [Authors](#authors)
+- [LICENSE](#license)
+
+<a name="libc"/>
+
 ## libc functions
+
+<a name="stdio"/>
+
 ### Standard Input-Output functions
 
 ||Description|Argument type|Return type|
@@ -27,6 +43,8 @@ int	main()
 }
 // OUTPUT => c
 ```
+
+<a name="ctype"/>
 
 ### Character-Handling functions
 
@@ -55,6 +73,7 @@ int	main()
 }
 ```
 
+<a name="string"/>
 
 ### String-Handling functions
 
@@ -84,6 +103,7 @@ int	main()
 }
 ```
   
+<a name="stdlib"/>
 
 ### Standard functions
 
@@ -104,6 +124,8 @@ int	main()
 }
 ```
 
+<a name="math"/>
+
 ### Math functions
 
 ||Description|Argument type|Return type|
@@ -123,6 +145,9 @@ int	main()
 	ft_sqrt(nb); // Return 2
 }
 ```
+
+<a name="installation"/>
+
 ## Installation Guide
 
 1. Clone or download the repository.
@@ -135,6 +160,8 @@ int	main()
     ```
     ./a.out
     ```
+    
+<a name="contributions"/>
 
 ## How To Contribute
 
@@ -151,8 +178,14 @@ Contributions are what make the open source community an amazing place to be, le
     ```
 5. Open a Pull Request.
     
-**Authors**
+<a name="authors"/>
+    
+## Authors
 
 [cortesana](https://twitter.com/cortesana_dev)
+
+<a name="license"/>
+
+## LICENSE
 
 **MIT License**
